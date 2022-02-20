@@ -1,3 +1,3 @@
 # my_Cpp_Projects
 
-A collection of 15 most commonly used coding patterns in competitive programming.
+A combined repository of various Cpp online courses and projects.
