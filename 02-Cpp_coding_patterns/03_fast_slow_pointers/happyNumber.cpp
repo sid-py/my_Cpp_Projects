@@ -31,6 +31,6 @@ int main(int argc, char* argv[]) {
   cout << HappyNumber::find(23) << endl;
   cout << HappyNumber::find(12) << endl;
   cout << HappyNumber::find(29) << endl;
-  cout << HappyNumber::find(89) << endl;
+  cout << HappyNumber::find(55) << endl;
   cout << HappyNumber::find(77) << endl;
 }
