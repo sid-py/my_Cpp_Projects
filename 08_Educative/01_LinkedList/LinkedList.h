@@ -21,4 +21,5 @@ public:
   bool isEmpty();
   bool printList();
   void insertAtHead(int value);
+  void insertAtTail(int value);
 };

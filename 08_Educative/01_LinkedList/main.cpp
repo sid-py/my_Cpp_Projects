@@ -9,6 +9,29 @@ void LinkedList::insertAtHead(int value) {
   cout << value << " Inserted !    ";
 }
 
+
+void LinkedList::insertAtTail(int value){
+
+  if(isEmpty()){
+    Node* newNode = new Node();
+    newNode->data = value;
+    newNode->nextElement = head;
+    head = newNode;
+  }
+  else{
+    Node* newNode = new Node();
+    Node* last = head;
+
+    while(last->nextElement !=nullptr){
+      last = last->nextElement;
+    }
+
+    newNode->data = value;
+    newNode->nextElement = nullptr;
+    last->nextElement = newNode;
+  }
+
+}
 int main() {
   LinkedList list; // Linked List created
   for (int i = 1; i < 10; i++) {
